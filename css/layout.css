@@ -13,6 +13,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+  min-height: 100vh;
+  position: relative;
 }
 
 
@@ -98,6 +101,17 @@ body {
       display: flex;
       flex-direction: column;
       gap: 34px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      background: rgba(255, 255, 255, 0.95);
     }
 
     .project-card-text-container {
@@ -111,6 +125,7 @@ body {
       height: 200px;
       object-fit: cover;
       object-position: center;
+      border-radius: 5px;
     }
 
 

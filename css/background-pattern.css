@@ -1,0 +1,14 @@
+/* Subtle background pattern */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(at 27% 26%, hsla(255,0%,100%,0.05) 0px, transparent 50%),
+    radial-gradient(at 74% 65%, hsla(255,0%,100%,0.05) 0px, transparent 50%);
+  z-index: -1;
+  pointer-events: none;
+}
