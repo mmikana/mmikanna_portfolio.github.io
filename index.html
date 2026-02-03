@@ -6,16 +6,16 @@
     <!--
       TODO
 
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      Upload your profile photo to the assets/images folder
       and change the name of the image below to match the uploaded one
 
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+      Change the title in the <title> tag to whatever you would like the title of your resume to be
 
       This should be the same across all pages.
      -->
-    <link rel="icon" href="./assets/images/1311.png" />
-		<title>phuongboi's portfolio</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <link rel="icon" href="./assets/images/profile-photo.jpg" />
+		<title>You Yehao - Resume</title>
+    <meta name="description" content="Professional resume of You Yehao">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
@@ -28,10 +28,10 @@
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">phuongboi's portfolio</span>
+        <!-- TODO - Change the "Resume Title" to whatever you want displayed in the top left -->
+        <span class="nav-title">You Yehao - Resume</span>
          <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:kytaithon84@gmail.com">
+        <a class="button" href="mailto:yyh1229581280@163.com">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
@@ -40,36 +40,33 @@
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
+      <!-- RESUME HEADER -->
+      <div id="resume-header">
+        <div id="resume-header-image-container">
           <!--
             TODO
 
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
+            - Change the img "src" attribute to point to your profile photo you uploaded
+            - Remove the entire "a" element with OpenSea link if not needed
           -->
-          <img src="./assets/images/1311.png" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
-            <span class="image-caption"></span>
-          </a>
+          <img src="./assets/images/profile-photo.jpg" class="portfolio-header-image">
+          <span class="image-caption"></span>
         </div>
 
           <!--
             TODO
 
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
+            - Change the main-title to your name
+            - Change the body-text after that to a quick professional introduction
+            - Edit the button text if you feel like it. It will link to the experience section below.
           -->
-        <div id="portfolio-header-text-container">
+        <div id="resume-header-text-container">
             <div class="header-text">
-              <span class="main-title">Hey, I'm @phuongboi</span>
-              <div class="body-text">  </div>
+              <span class="main-title">Hey, I'm Yaohao Ye</span>
+              <div class="body-text">I'm currently pursuing a Master's degree in Control Science and Engineering at the School of Intelligent and Automation, Beijing University of Posts and Telecommunications, China.</div>
             </div>
             <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span>
+              <span class="button-text">View My Experience</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
         </div>
@@ -83,17 +80,17 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
       -->
       <div id="about-section">
-        <span class="subheader-text">My Background / About Me</span>
+        <span class="subheader-text">Education & Background</span>
         <div class="about-section-content">
-          <div class="body-text"> I'm a software engineer in Vietnam.</div>
-          <div class="body-text"> My major and interest is computer vision/robotics. Recently, I am interesting in data-driven control. I am looking for a new position, if you know the avaiable positions, please contact me at kytaithon84@gmail.com</div>
+          <div class="body-text">Currently pursuing a Master's degree in Control Science and Engineering at the School of Intelligent and Automation, Beijing University of Posts and Telecommunications, China.</div>
+          <div class="body-text">Research interests include control systems, automation, and intelligent systems. Seeking opportunities in related fields.</div>
         </div>
       </div>
 
       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">My Work / My Projects</span>
+        <span class="subheader-text">Academic Projects & Experience</span>
 
         <div class="projects-container">
           <!--
@@ -119,133 +116,67 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-            <img src="./assets/images/Screenshot from 2023-10-10 11-28-12.png" class="project-image">
+            <img src="./assets/images/control-system-design.jpg" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">SLAM</div>
-              <div class="body-text project-card-text">Implement some SLAM algorithm in python </div>
+              <div class="subheader-text project-title">Advanced Control Systems</div>
+              <div class="body-text project-card-text">Design and implementation of modern control algorithms for dynamic systems</div>
             </div>
-            <a class="button" href="https://github.com/phuongboi/fastslam-python">
+            <a class="button" href="#project-details">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/3.gif" class="project-image">
+            <img src="./assets/images/automation-project.jpg" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Lunar Lander</div>
-              <div class="body-text project-card-text">Solve OpenAI's lunar lander with some reinforcement learning algorithms</div>
+              <div class="subheader-text project-title">Industrial Automation</div>
+              <div class="body-text project-card-text">Development of automated solutions for manufacturing processes</div>
             </div>
-            <a class="button" href="https://github.com/phuongboi/lunar-lander">
+            <a class="button" href="#project-details">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
           <div class="project-card">
-            <img src="./assets/images/pong_modified_300.gif" class="project-image">
+            <img src="./assets/images/intelligent-systems.jpg" class="project-image">
             <div class="project-card-text-container">
-              <div class="subheader-text project-title">Playing atari games with reinforcement learning</div>
-              <div class="body-text project-card-text">Playing game pong with q-learing</div>
+              <div class="subheader-text project-title">Intelligent Control Systems</div>
+              <div class="body-text project-card-text">Integration of AI techniques with traditional control methods</div>
             </div>
-            <a class="button" href="https://github.com/phuongboi/playing-atari-with-reinforcement-learning">
+            <a class="button" href="#project-details">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
             </a>
           </div>
 					<div class="project-card">
-						<img src="./assets/images/recording_2023_10_19-06_46-39.gif" class="project-image">
+						<img src="./assets/images/thesis-research.jpg" class="project-image">
 						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Land following with reinforcement learning</div>
-							<div class="body-text project-card-text">Using CoppeliaSim(V-REP), ROS, Q-learning</div>
+							<div class="subheader-text project-title">Graduate Research Project</div>
+							<div class="body-text project-card-text">Investigation of advanced control methodologies for complex systems</div>
 						</div>
-						<a class="button" href="https://github.com/phuongboi/land-following-with-reinforcement-learning.git">
+						<a class="button" href="#project-details">
 							<span class="button-text">Read More</span>
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
 						</a>
 					</div>
 					<div class="project-card">
-						<img src="./assets/images/recording_2023_11_03-20_28-15.gif" class="project-image">
+						<img src="./assets/images/robotics-control.jpg" class="project-image">
 						<div class="project-card-text-container">
-							<div class="subheader-text project-title">FastSLAM with CoppeliaSim</div>
-							<div class="body-text project-card-text">Using CoppeliaSim(V-REP), ROS, FastSLAM</div>
+							<div class="subheader-text project-title">Robotic Control Systems</div>
+							<div class="body-text project-card-text">Design of control algorithms for robotic manipulation and navigation</div>
 						</div>
-						<a class="button" href="https://github.com/phuongboi/fastslam-with-coppeliasim">
+						<a class="button" href="#project-details">
 							<span class="button-text">Read More</span>
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
 						</a>
 					</div>
 					<div class="project-card">
-						<img src="./assets/images/recording_2023_11_28-07_03-58.gif" class="project-image">
+						<img src="./assets/images/system-identification.jpg" class="project-image">
 						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Pushing and Grasping with reinforcement learning</div>
-							<div class="body-text project-card-text">Using CoppeliaSim(V-REP), Q-learning</div>
+							<div class="subheader-text project-title">System Identification</div>
+							<div class="body-text project-card-text">Modeling and parameter estimation for dynamic systems</div>
 						</div>
-						<a class="button" href="https://github.com/phuongboi/pushing-and-grasping-with-reinforcement-learning">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/202312301540.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Drone Control with Reinforcement Learning</div>
-							<div class="body-text project-card-text">Using gym-pybullet-drones, PPO</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/drone-control-using-reinforcement-learning">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/output2.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Agile Flight Control using MPC and Neural Net</div>
-							<div class="body-text project-card-text">Using Neural Network imitate MPC</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/agile-flight-control-using-mpc-and-neural-net">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/202403160010.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Mapless navigation in CoppeliaSim</div>
-							<div class="body-text project-card-text">Using Soft Actor Critic, ROS, CoppeliaSim</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/mapless-navigation-in-indoor-environments">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/lstm.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Robot navigation in crowd</div>
-							<div class="body-text project-card-text">Using LSTM, Value Network, Q-learning, ORCA</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/CrowdNav_LstmAtt">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/racing1.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Drone racing with reinforcement learning</div>
-							<div class="body-text project-card-text">Using PPO, Pybullet</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/drone-racing-using-reinforcement-learning">
-							<span class="button-text">Read More</span>
-							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
-					</div>
-					<div class="project-card">
-						<img src="./assets/images/stair_mpc.gif" class="project-image">
-						<div class="project-card-text-container">
-							<div class="subheader-text project-title">Quadruped control in PyBullet</div>
-							<div class="body-text project-card-text">Using MPC, PPO, Pybullet</div>
-						</div>
-						<a class="button" href="https://github.com/phuongboi/quadruped-control-in-pybullet">
+						<a class="button" href="#project-details">
 							<span class="button-text">Read More</span>
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
 						</a>
