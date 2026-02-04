@@ -49,8 +49,8 @@ body {
 }
 
 .portfolio-header-image {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #fff;
@@ -222,6 +222,11 @@ body {
     flex-direction: column;
   }
 
+  .portfolio-header-image {
+    width: 150px;
+    height: 150px;
+  }
+
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
@@ -231,6 +236,11 @@ body {
 @media only screen and (max-width: 600px) {
   #main-content {
     margin: 125px 20px;
+  }
+
+  .portfolio-header-image {
+    width: 120px;
+    height: 120px;
   }
 
   .project-card {
