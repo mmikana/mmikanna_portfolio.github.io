@@ -49,8 +49,8 @@ body {
 }
 
 .portfolio-header-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #fff;
@@ -223,8 +223,8 @@ body {
   }
 
   .portfolio-header-image {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
   }
 
   .project-card {
@@ -239,8 +239,8 @@ body {
   }
 
   .portfolio-header-image {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
   }
 
   .project-card {
