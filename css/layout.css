@@ -33,7 +33,7 @@ body {
 
 
 
-/* Portfolio Header */
+/* portfolio Header */
 
 #portfolio-header {
   display: flex;
@@ -49,8 +49,8 @@ body {
 }
 
 .portfolio-header-image {
-  width: 150px;
-  height: 150px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #fff;
